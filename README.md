@@ -8,7 +8,7 @@ Full‑stack todo list built with PostgreSQL, Express, React, and Node. The fron
 
 ## Prerequisites
 - Node.js 18+ and npm.
-- PostgreSQL running locally (defaults in `backend/db.js`: host `127.0.0.1`, port `5433`, user `postgres`, password `Xqn4rcj9`, database `tododb`).
+- PostgreSQL running locally 
 
 ## Database setup
 Adjust the credentials in `backend/db.js` if needed, then create the database and table:
