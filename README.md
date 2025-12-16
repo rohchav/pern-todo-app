@@ -8,10 +8,19 @@ Full‑stack todo list built with PostgreSQL, Express, React, and Node. The fron
 
 ## Prerequisites
 - Node.js 18+ and npm.
+<<<<<<< HEAD
 - PostgreSQL running locally 
+=======
+- PostgreSQL running locally (configure credentials in `backend/.env`; see `backend/.env.example` for the keys).
+>>>>>>> cf9fdb7 (feat(dotenv): add support for encrypted .env.vault files and enhance configuration options)
 
 ## Database setup
-Adjust the credentials in `backend/db.js` if needed, then create the database and table:
+Copy the example environment file and set your database connection values, then create the database and table:
+
+```bash
+cp backend/.env.example backend/.env
+# edit backend/.env to match your local Postgres credentials
+```
 
 ```sql
 CREATE DATABASE tododb;
